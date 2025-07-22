@@ -1,0 +1,46 @@
+# ============================================================================
+# LARGE FILES - NEVER COMMIT
+# ============================================================================
+
+# Terraform state and providers (HUGE)
+*.tfstate*
+.terraform/
+*.tfplan
+
+# Security scan reports (LARGE)
+*-report.*
+*-results.*
+security-reports/
+scan-results/
+
+# Backup files
+*.backup
+*.bak
+
+# Large data files
+*.json
+*.xml
+*.csv
+*.log
+
+# Credentials
+*.key
+*-key.json
+.env
+
+# Dependencies (HUGE)
+node_modules/
+.terraform/
+venv/
+__pycache__/
+
+# Media files
+*.png
+*.jpg
+*.gif
+*.mp4
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
